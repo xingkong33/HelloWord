@@ -10,9 +10,13 @@
 
 #import "AppDelegate.h"
 
+
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
+        NSString *hello=@"hello word!";
+        NSLog(@"%@",hello);
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+       
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE9A304F18FD73B500CE1508 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A304E18FD73B500CE1508 /* test.m */; };
 		EEBF9CD818EDA2DC00B3A7B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBF9CD718EDA2DC00B3A7B1 /* Foundation.framework */; };
 		EEBF9CDA18EDA2DC00B3A7B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBF9CD918EDA2DC00B3A7B1 /* CoreGraphics.framework */; };
 		EEBF9CDC18EDA2DC00B3A7B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBF9CDB18EDA2DC00B3A7B1 /* UIKit.framework */; };
@@ -37,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE9A304C18FD736C00CE1508 /* NSObject_helloword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_helloword.h; sourceTree = "<group>"; };
+		EE9A304D18FD73B500CE1508 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		EE9A304E18FD73B500CE1508 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		EEBF9CD418EDA2DC00B3A7B1 /* HelloWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBF9CD718EDA2DC00B3A7B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EEBF9CD918EDA2DC00B3A7B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -142,6 +146,9 @@
 				EEBF9CDF18EDA2DC00B3A7B1 /* HelloWord-Info.plist */,
 				EEBF9CE018EDA2DC00B3A7B1 /* InfoPlist.strings */,
 				EEBF9CE318EDA2DC00B3A7B1 /* main.m */,
+				EE9A304C18FD736C00CE1508 /* NSObject_helloword.h */,
+				EE9A304D18FD73B500CE1508 /* test.h */,
+				EE9A304E18FD73B500CE1508 /* test.m */,
 				EEBF9CE518EDA2DC00B3A7B1 /* HelloWord-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -268,6 +275,7 @@
 				EEBF9CF118EDA2DC00B3A7B1 /* ModelController.m in Sources */,
 				EEBF9CE418EDA2DC00B3A7B1 /* main.m in Sources */,
 				EEBF9CEB18EDA2DC00B3A7B1 /* RootViewController.m in Sources */,
+				EE9A304F18FD73B500CE1508 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				EEBF9D1118EDA2DC00B3A7B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEBF9D1218EDA2DC00B3A7B1 /* Build configuration list for PBXNativeTarget "HelloWordTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				EEBF9D1418EDA2DC00B3A7B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
